@@ -1,0 +1,15 @@
+[03-May-2022 18:57:25 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER), expecting '(' in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-content/themes/cbs-theme/index.php on line 2
+[03-May-2022 18:57:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-content/themes/cbs-theme/index.php on line 4
+[03-May-2022 18:57:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-content/themes/cbs-theme/index.php on line 4
+[03-May-2022 18:58:04 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-content/themes/cbs-theme/index.php on line 4
+[03-May-2022 18:58:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-content/themes/cbs-theme/index.php on line 4
+[03-May-2022 18:58:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-content/themes/cbs-theme/index.php on line 4
+[03-May-2022 19:10:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-content/themes/cbs-theme/functions.php on line 2 and at least 2 expected in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-includes/plugin.php:398
+Stack trace:
+#0 /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-content/themes/cbs-theme/functions.php(2): add_action()
+#1 /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-settings.php(555): include('/Users/kechambe...')
+#2 /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-config.php(91): require_once('/Users/kechambe...')
+#3 /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-load.php(50): require_once('/Users/kechambe...')
+#4 /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/kecham in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-includes/plugin.php on line 398
+[03-May-2022 19:44:46 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-content/themes/cbs-theme/functions.php on line 4
+[03-May-2022 19:45:15 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/kechamberlin/Local Sites/congregation-beth-shalom-modesto/app/public/wp-content/themes/cbs-theme/functions.php on line 4
