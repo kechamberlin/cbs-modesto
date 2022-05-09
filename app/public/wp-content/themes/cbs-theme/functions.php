@@ -6,8 +6,12 @@
         wp_enqueue_style('cbs_main_styles', get_theme_file_uri('/build/style-index.css'));
         wp_enqueue_style('cbs_extra_styles', get_theme_file_uri('/build/index.css'));
     }
-
     add_action('wp_enqueue_scripts', 'cbs_files');
+
+    function cbs_features() {
+        add_theme_support('title-tag');
+    }
+    add_action('after_setup_theme', 'cbs_features');
 ?>
 
 
